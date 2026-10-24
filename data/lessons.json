@@ -1,0 +1,787 @@
+[
+  {
+    "slug": "noun",
+    "title": "Noun",
+    "titleUrdu": "اسم",
+    "section": "Parts of Speech",
+    "sectionUrdu": "حصےِ کلام",
+    "description": "A noun is a naming word. It tells the name of a person, place, animal, or thing.",
+    "descriptionUrdu": "اسم ایک نام دینے والی چیز ہے۔ یہ کسی شخص، جگہ، جانور یا چیز کا نام بتاتا ہے۔",
+    "explanation": {
+      "english": "A noun names a person, place, animal, or thing. Examples: teacher, school, dog, book. We use nouns in every sentence.",
+      "urdu": "اسم کسی شخص، جگہ، جانور یا چیز کا نام دیتا ہے۔ مثال: استاد، اسکول، کتا، کتاب۔ ہم ہر جملے میں اسم استعمال کرتے ہیں۔"
+    },
+    "examples": [
+      { "english": "The teacher is kind.", "urdu": "استاد نرمی سے ہے۔" },
+      { "english": "The school is big.", "urdu": "اسکول بڑا ہے۔" },
+      { "english": "The dog runs fast.", "urdu": "کتا تیزی سے دوڑتا ہے۔" },
+      { "english": "I have a red book.", "urdu": "میرے پاس ایک لال کتاب ہے۔" },
+      { "english": "My father is at home.", "urdu": "میرے باپ گھر پر ہیں۔" }
+    ],
+    "remember": {
+      "english": "A noun is a naming word. Look for the name of something in the sentence.",
+      "urdu": "اسم ایک نام دینے والی چیز ہے۔ جملے میں کسی چیز کے نام کو دیکھو۔"
+    },
+    "quiz": [
+      { "question": "Which word is a noun?", "options": ["run", "happy", "school", "quickly"], "answer": "school" },
+      { "question": "Choose the noun in this sentence: 'The cat sleeps.'", "options": ["The", "cat", "sleeps", "is"], "answer": "cat" },
+      { "question": "Which one is a person noun?", "options": ["river", "doctor", "chair", "tree"], "answer": "doctor" }
+    ]
+  },
+  {
+    "slug": "pronoun",
+    "title": "Pronoun",
+    "titleUrdu": "ضمیر",
+    "section": "Parts of Speech",
+    "sectionUrdu": "حصےِ کلام",
+    "description": "A pronoun is a word used instead of a noun.",
+    "descriptionUrdu": "ضمیر وہ لفظ ہے جو اسم کے بجائے استعمال ہوتا ہے۔",
+    "explanation": {
+      "english": "Pronouns help us avoid repeating names. We use words like I, you, he, she, it, we, and they.",
+      "urdu": "ضمیر ہمارے لیے نام کو دوبارہ دہرانے سے بچاتے ہیں۔ ہم I، you، he، she، it، we، اور they جیسے الفاظ استعمال کرتے ہیں۔"
+    },
+    "examples": [
+      { "english": "I am tired.", "urdu": "میں تھک گیا/گئی ہوں۔" },
+      { "english": "She is my sister.", "urdu": "وہ میری بہن ہے۔" },
+      { "english": "We play cricket.", "urdu": "ہم کرکٹ کھیلتے ہیں۔" },
+      { "english": "They are late.", "urdu": "وہ دیر سے ہیں۔" },
+      { "english": "It is a small ball.", "urdu": "یہ ایک چھوٹی گیند ہے۔" }
+    ],
+    "remember": {
+      "english": "Pronouns replace nouns. Instead of saying a name again and again, use a pronoun.",
+      "urdu": "ضمیر اسم کے بجائے استعمال ہوتا ہے۔ نام کو بار بار کہنے کے بجائے ضمیر استعمال کریں۔"
+    },
+    "quiz": [
+      { "question": "Which word is a pronoun?", "options": ["chair", "book", "he", "garden"], "answer": "he" },
+      { "question": "Replace the noun: 'Ali is happy.'", "options": ["He is happy.", "Ali is sad.", "Happy is Ali.", "Ali he is happy."], "answer": "He is happy." },
+      { "question": "Choose the correct pronoun: '____ is my mother.'", "options": ["They", "She", "It", "We"], "answer": "She" }
+    ]
+  },
+  {
+    "slug": "verb",
+    "title": "Verb",
+    "titleUrdu": "فعل",
+    "section": "Parts of Speech",
+    "sectionUrdu": "حصےِ کلام",
+    "description": "A verb is an action word. It shows what someone or something does.",
+    "descriptionUrdu": "فعل ایک عمل والے لفظ ہیں۔ یہ بتاتا ہے کہ کوئی شخص یا چیز کیا کرتا ہے۔",
+    "explanation": {
+      "english": "A verb is an action word. It tells us what happens. Examples: run, jump, eat, speak, write.",
+      "urdu": "فعل ایک عمل کا لفظ ہے۔ یہ بتاتا ہے کہ کچھ کیا ہو رہا ہے۔ مثال: دوڑنا، چھلانگ لگانا، کھانا، بولنا، لکھنا۔"
+    },
+    "examples": [
+      { "english": "The boy runs.", "urdu": "لڑکا دوڑتا ہے۔" },
+      { "english": "We read books.", "urdu": "ہم کتابیں پڑھتے ہیں۔" },
+      { "english": "She writes neatly.", "urdu": "وہ خوبصورت لکھتی ہے۔" },
+      { "english": "They eat lunch.", "urdu": "وہ دوپہر کا کھانا کھاتے ہیں۔" },
+      { "english": "The bird flies high.", "urdu": "پرندہ اوپر اڑا ہے۔" }
+    ],
+    "remember": {
+      "english": "A verb tells the action in a sentence. If you ask 'what is happening?', the verb is often the answer.",
+      "urdu": "فعل جملے میں عمل بتاتا ہے۔ اگر آپ پوچھیں 'کیا ہو رہا ہے؟' تو فعل اکثر جواب ہوتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which word is a verb?", "options": ["chair", "happy", "jump", "school"], "answer": "jump" },
+      { "question": "Choose the verb in this sentence: 'The baby sleeps.'", "options": ["The", "baby", "sleeps", "small"], "answer": "sleeps" },
+      { "question": "What is the verb in 'We write homework.'?", "options": ["We", "homework", "write", "the"], "answer": "write" }
+    ]
+  },
+  {
+    "slug": "adjective",
+    "title": "Adjective",
+    "titleUrdu": "صفت",
+    "section": "Parts of Speech",
+    "sectionUrdu": "حصےِ کلام",
+    "description": "An adjective describes a noun or pronoun.",
+    "descriptionUrdu": "صفت کسی اسم یا ضمیر کی حالت، شکل یا صفات بیان کرتی ہے۔",
+    "explanation": {
+      "english": "Adjectives tell us more about a person, place, or thing. Examples: happy, tall, red, soft.",
+      "urdu": "صفت ہمیں کسی شخص، جگہ یا چیز کے بارے میں مزید معلومات دیتی ہے۔ مثال: خوش، لمبا، لال، نرم۔"
+    },
+    "examples": [
+      { "english": "The red ball is on the table.", "urdu": "لال گیند میز پر ہے۔" },
+      { "english": "She is a clever girl.", "urdu": "وہ ایک ہوشیار لڑکی ہے۔" },
+      { "english": "This room is very clean.", "urdu": "یہ کمرہ بہت صاف ہے۔" },
+      { "english": "The old tree is tall.", "urdu": "پرانا درخت لمبا ہے۔" },
+      { "english": "My father has a strong car.", "urdu": "میرے باپ کے پاس مضبوط گاڑی ہے۔" }
+    ],
+    "remember": {
+      "english": "An adjective describes a noun. It tells what kind, which one, or how many.",
+      "urdu": "صفت اسم کی وضاحت کرتی ہے۔ یہ بتاتی ہے کہ وہ کس قسم کی ہے، کون سی ہے یا کتنی ہے۔"
+    },
+    "quiz": [
+      { "question": "Which word is an adjective?", "options": ["jump", "happy", "book", "run"], "answer": "happy" },
+      { "question": "Choose the adjective in 'The small dog barks.'", "options": ["The", "small", "dog", "barks"], "answer": "small" },
+      { "question": "Which sentence has an adjective?", "options": ["She writes.", "The blue sky is bright.", "We eat.", "They sing."], "answer": "The blue sky is bright." }
+    ]
+  },
+  {
+    "slug": "adverb",
+    "title": "Adverb",
+    "titleUrdu": "ظرف",
+    "section": "Parts of Speech",
+    "sectionUrdu": "حصےِ کلام",
+    "description": "An adverb tells more about a verb, adjective, or another adverb.",
+    "descriptionUrdu": "ظرف فعل، صفت یا دوسرے ظرف کے بارے میں مزید معلومات دیتا ہے۔",
+    "explanation": {
+      "english": "Adverbs tell us how, when, where, or how often something happens. Examples: quickly, today, here, often.",
+      "urdu": "ظرف بتاتا ہے کہ کچھ کیسے، کب، کہاں یا کتنی بار ہوا۔ مثال: جلدی، آج، یہاں، اکثر۔"
+    },
+    "examples": [
+      { "english": "She sings beautifully.", "urdu": "وہ خوبصورت گاتی ہے۔" },
+      { "english": "We walked slowly.", "urdu": "ہم آہستہ آہستہ چلے۔" },
+      { "english": "I will come tomorrow.", "urdu": "میں کل آؤں گا۔" },
+      { "english": "The children play outside.", "urdu": "بچے باہر کھیلتے ہیں۔" },
+      { "english": "He always helps his mother.", "urdu": "وہ ہمیشہ اپنی ماں کی مدد کرتا ہے۔" }
+    ],
+    "remember": {
+      "english": "Adverbs often answer how, when, where, or how often.",
+      "urdu": "ظرف اکثر پوچھنے والے سوالات جیسے کیسے، کب، کہاں اور کتنی بار کے جواب دیتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which word is an adverb?", "options": ["happy", "quickly", "teacher", "ball"], "answer": "quickly" },
+      { "question": "Choose the adverb in 'He arrived late.'", "options": ["He", "arrived", "late", "arrived"], "answer": "late" },
+      { "question": "Which sentence uses an adverb correctly?", "options": ["She reads quickly.", "The quickly book.", "Book quickly is.", "Reads she quickly."], "answer": "She reads quickly." }
+    ]
+  },
+  {
+    "slug": "preposition",
+    "title": "Preposition",
+    "titleUrdu": "حرفِ جر",
+    "section": "Parts of Speech",
+    "sectionUrdu": "حصےِ کلام",
+    "description": "A preposition shows relation between words in a sentence.",
+    "descriptionUrdu": "حرفِ جر جملے میں الفاظ کے درمیان تعلق ظاہر کرتا ہے۔",
+    "explanation": {
+      "english": "Prepositions show place, time, direction, or position. Examples: in, on, under, at, with.",
+      "urdu": "حرفِ جر جگہ، وقت، سمت یا مقام ظاہر کرتا ہے۔ مثال: میں، پر، نیچے، پر، کے ساتھ۔"
+    },
+    "examples": [
+      { "english": "The book is on the desk.", "urdu": "کتاب میز پر ہے۔" },
+      { "english": "The cat is under the chair.", "urdu": "کتا کرسی کے نیچے ہے۔" },
+      { "english": "We go to school at 8 o'clock.", "urdu": "ہم آٹھ بجے اسکول جاتے ہیں۔" },
+      { "english": "I sit with my friend.", "urdu": "میں اپنے دوست کے ساتھ بیٹھتا ہوں۔" },
+      { "english": "The ball is in the box.", "urdu": "گیند باکس میں ہے۔" }
+    ],
+    "remember": {
+      "english": "Prepositions usually show where or when something is.",
+      "urdu": "حرفِ جر عام طور پر بتاتا ہے کہ کچھ کہاں ہے یا کب ہے۔"
+    },
+    "quiz": [
+      { "question": "Which word is a preposition?", "options": ["under", "happy", "horse", "book"], "answer": "under" },
+      { "question": "Complete the sentence: 'The pencil is ___ the desk.'", "options": ["under", "sing", "teacher", "happy"], "answer": "under" },
+      { "question": "Choose the correct preposition: 'I am with ___ friend.'", "options": ["my", "run", "jump", "book"], "answer": "my" }
+    ]
+  },
+  {
+    "slug": "conjunction",
+    "title": "Conjunction",
+    "titleUrdu": "حرفِ ربط",
+    "section": "Parts of Speech",
+    "sectionUrdu": "حصےِ کلام",
+    "description": "A conjunction joins words, phrases, or sentences.",
+    "descriptionUrdu": "حرفِ ربط الفاظ، جملوں یا عبارتوں کو جوڑتا ہے۔",
+    "explanation": {
+      "english": "Conjunctions connect two ideas. Examples: and, but, because, or, so.",
+      "urdu": "حرفِ ربط دو خیالات کو جوڑتا ہے۔ مثال: اور، لیکن، کیونکہ، یا، اس لیے۔"
+    },
+    "examples": [
+      { "english": "I like tea and milk.", "urdu": "مجھے چائے اور دودھ پسند ہے۔" },
+      { "english": "He is tired but happy.", "urdu": "وہ تھکا ہوا ہے لیکن خوش بھی ہے۔" },
+      { "english": "She stayed home because it rained.", "urdu": "وہ گھر پر رہی کیونکہ بارش ہوئی۔" },
+      { "english": "Do you like tea or coffee?", "urdu": "کیا آپ چائے یا قہوہ پسند کرتے ہیں؟" },
+      { "english": "We ran fast, so we reached on time.", "urdu": "ہم نے تیزی سے دوڑا، اس لیے ہم وقت پر پہنچ گئے۔" }
+    ],
+    "remember": {
+      "english": "A conjunction joins ideas together.",
+      "urdu": "حرفِ ربط دو خیالات کو ایک دوسرے سے جوڑتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which word is a conjunction?", "options": ["and", "book", "quickly", "teacher"], "answer": "and" },
+      { "question": "Complete: 'I am tired ___ I am happy.'", "options": ["but", "quickly", "under", "dog"], "answer": "but" },
+      { "question": "Which joining word is used for choice?", "options": ["or", "because", "inside", "apple"], "answer": "or" }
+    ]
+  },
+  {
+    "slug": "articles",
+    "title": "Articles",
+    "titleUrdu": "مقالات",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "Articles are small words like a, an, and the.",
+    "descriptionUrdu": "مقالات وہ چھوٹے الفاظ ہیں جیسے a، an اور the۔",
+    "explanation": {
+      "english": "We use a and an for singular things. We use the for a specific thing. Examples: a book, an apple, the teacher.",
+      "urdu": "ہم a اور an ایک واحد چیز کے لیے استعمال کرتے ہیں۔ ہم the کسی خاص چیز کے لیے استعمال کرتے ہیں۔ مثال: ایک کتاب، ایک سیب، استاد۔"
+    },
+    "examples": [
+      { "english": "I saw a bird in the garden.", "urdu": "میں باغ میں ایک پرندہ دیکھتا تھا۔" },
+      { "english": "She ate an apple.", "urdu": "اس نے ایک سیب کھایا۔" },
+      { "english": "The sun is bright.", "urdu": "سورج چمک رہا ہے۔" },
+      { "english": "Please open the door.", "urdu": "براہ کرم دروازہ کھول دیں۔" },
+      { "english": "He is a good student.", "urdu": "وہ ایک اچھا طالب علم ہے۔" }
+    ],
+    "remember": {
+      "english": "Use a or an for one thing, and the for a known or special thing.",
+      "urdu": "ایک چیز کے لیے a یا an استعمال کریں، اور جانا پہچانا یا خاص چیز کے لیے the استعمال کریں۔"
+    },
+    "quiz": [
+      { "question": "Which article is used before a vowel sound?", "options": ["a", "an", "the", "none"], "answer": "an" },
+      { "question": "Choose the correct sentence.", "options": ["She is an honest girl.", "She is a honest girl.", "She is the honest girl.", "She is honest a girl."], "answer": "She is an honest girl." },
+      { "question": "Which article fits: '___ moon shines at night.'", "options": ["a", "an", "the", "no article"], "answer": "the" }
+    ]
+  },
+  {
+    "slug": "singular-and-plural",
+    "title": "Singular and Plural",
+    "titleUrdu": "واحد اور جمع",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "Singular means one. Plural means more than one.",
+    "descriptionUrdu": "واحد کا مطلب ایک ہے۔ جمع کا مطلب ایک سے زیادہ ہے۔",
+    "explanation": {
+      "english": "Singular nouns name one thing. Plural nouns name more than one. Examples: book/books, child/children, pen/pens.",
+      "urdu": "واحد اسم ایک چیز کا نام دیتا ہے۔ جمع اسم ایک سے زیادہ چیز کا نام دیتا ہے۔ مثال: کتاب/کتابیں، بچہ/بچے، قلم/قلمیں۔"
+    },
+    "examples": [
+      { "english": "One cat is sleeping.", "urdu": "ایک بلی سوتی ہے۔" },
+      { "english": "Three cats are sleeping.", "urdu": "تین بلیاں سوتی ہیں۔" },
+      { "english": "This pen is blue.", "urdu": "یہ قلم نیلا ہے۔" },
+      { "english": "These pens are blue.", "urdu": "یہ قلم نیلے ہیں۔" },
+      { "english": "A child is playing.", "urdu": "ایک بچہ کھیل رہا ہے۔" }
+    ],
+    "remember": {
+      "english": "Singular means one. Plural means two or more.",
+      "urdu": "واحد کا مطلب ایک ہے۔ جمع کا مطلب دو یا دو سے زیادہ ہے۔"
+    },
+    "quiz": [
+      { "question": "What is the plural of 'book'?", "options": ["books", "bookes", "booksies", "booked"], "answer": "books" },
+      { "question": "Which word is singular?", "options": ["children", "dogs", "bird", "chairs"], "answer": "bird" },
+      { "question": "Choose the plural form.", "options": ["pen", "pens", "penn", "pense"], "answer": "pens" }
+    ]
+  },
+  {
+    "slug": "simple-tenses",
+    "title": "Simple Tenses",
+    "titleUrdu": "سادہ زمانے",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "Tenses tell when an action happens: present, past, or future.",
+    "descriptionUrdu": "زمانہ بتاتا ہے کہ عمل کب ہوا: حال، ماضی یا مستقبل۔",
+    "explanation": {
+      "english": "We use simple present for daily actions, simple past for finished actions, and simple future for things that will happen later.",
+      "urdu": "ہم سادہ حال روزمرہ کے اعمال کے لیے استعمال کرتے ہیں، سادہ ماضی مکمل ہونے والے اعمال کے لیے، اور سادہ مستقبل ان چیزوں کے لیے استعمال کرتے ہیں جو بعد میں ہوں گی۔"
+    },
+    "examples": [
+      { "english": "I eat breakfast every morning.", "urdu": "میں ہر صبح ناشتا کھاتا ہوں۔" },
+      { "english": "She went to school yesterday.", "urdu": "وہ کل اسکول گئی۔" },
+      { "english": "We will play football tomorrow.", "urdu": "ہم کل فٹبال کھیلیں گے۔" },
+      { "english": "He writes stories.", "urdu": "وہ کہانیاں لکھتا ہے۔" },
+      { "english": "They visited the park last week.", "urdu": "انہوں نے گزشتہ ہفتے پارک کا دورہ کیا۔" }
+    ],
+    "remember": {
+      "english": "Present is now, past is before, and future is later.",
+      "urdu": "حال اب ہے، ماضی پہلے ہوا، اور مستقبل بعد میں ہوگا۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the past tense?", "options": ["I play cricket.", "I played cricket.", "I will play cricket.", "I am playing cricket."], "answer": "I played cricket." },
+      { "question": "Choose the future tense sentence.", "options": ["She cooks dinner.", "She cooked dinner.", "She will cook dinner.", "She is cooking dinner."], "answer": "She will cook dinner." },
+      { "question": "Which sentence is in the present tense?", "options": ["I visited Karachi.", "I visit Karachi.", "I will visit Karachi.", "I was visiting Karachi."], "answer": "I visit Karachi." }
+    ]
+  },
+  {
+    "slug": "present-continuous",
+    "title": "Present Continuous Tense",
+    "titleUrdu": "موجودہ جاری زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The present continuous tense describes an action happening now or around now.",
+    "descriptionUrdu": "موجودہ جاری زمانہ وہ فعل ہے جو ابھی یا اس وقت کے آس پاس ہو رہا ہو۔",
+    "explanation": {
+      "english": "We form the present continuous with am/is/are + verb + ing. Example: I am reading, She is writing, They are playing.",
+      "urdu": "ہم am/is/are + verb + ing سے موجودہ جاری زمانہ بناتے ہیں۔ مثال: میں پڑھ رہا ہوں، وہ لکھ رہی ہے، وہ کھیل رہے ہیں۔"
+    },
+    "examples": [
+      { "english": "I am studying English now.", "urdu": "میں اب انگریزی پڑھ رہا ہوں۔" },
+      { "english": "She is cooking dinner.", "urdu": "وہ کھانا بنا رہی ہے۔" },
+      { "english": "They are watching TV.", "urdu": "وہ ٹی وی دیکھ رہے ہیں۔" },
+      { "english": "The children are playing outside.", "urdu": "بچے باہر کھیل رہے ہیں۔" }
+    ],
+    "remember": {
+      "english": "Use the present continuous for actions in progress at the moment.",
+      "urdu": "موجودہ جاری زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو ابھی ہو رہے ہوں۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the present continuous tense?", "options": ["I read a book.", "I am reading a book.", "I read books every day.", "I will read a book."], "answer": "I am reading a book." },
+      { "question": "Choose the correct form: 'She ___ a song.'", "options": ["sing", "sings", "is singing", "will sing"], "answer": "is singing" },
+      { "question": "What does the present continuous talk about?", "options": ["completed actions", "actions happening now", "past habits", "future plans"], "answer": "actions happening now" }
+    ]
+  },
+  {
+    "slug": "present-perfect",
+    "title": "Present Perfect Tense",
+    "titleUrdu": "موجودہ کامل زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The present perfect tense connects past actions with the present time.",
+    "descriptionUrdu": "موجودہ کامل زمانہ ماضی کے کسی کام کو موجودہ وقت سے جوڑتا ہے۔",
+    "explanation": {
+      "english": "We form it with have/has + past participle. Example: I have finished, She has eaten, They have gone.",
+      "urdu": "ہم have/has + past participle سے بناتے ہیں۔ مثال: میں ختم کر چکا ہوں، اس نے کھا لیا، وہ چلے گئے ہیں۔"
+    },
+    "examples": [
+      { "english": "I have finished my homework.", "urdu": "میں اپنا ہیوم ورک ختم کر چکا ہوں۔" },
+      { "english": "She has visited Lahore twice.", "urdu": "وہ دو بار لاہور جا چکی ہے۔" },
+      { "english": "They have learned the lesson.", "urdu": "انہوں نے سبق یاد کر لیا ہے۔" },
+      { "english": "We have lived here for five years.", "urdu": "ہم پانچ سال سے یہاں رہ رہے ہیں۔" }
+    ],
+    "remember": {
+      "english": "Use the present perfect to talk about actions that are relevant now.",
+      "urdu": "موجودہ کامل زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو ابھی سے متعلق ہوں۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the present perfect tense?", "options": ["I eat lunch.", "I have eaten lunch.", "I ate lunch.", "I will eat lunch."], "answer": "I have eaten lunch." },
+      { "question": "Choose the correct verb: 'He ___ finished his work.'", "options": ["has", "have", "is", "was"], "answer": "has" },
+      { "question": "The present perfect usually connects the past with the ____.", "options": ["future", "present", "past", "time"], "answer": "present" }
+    ]
+  },
+  {
+    "slug": "past-simple",
+    "title": "Past Simple Tense",
+    "titleUrdu": "ماضی سادہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The past simple tense is used for actions that happened in the past.",
+    "descriptionUrdu": "ماضی سادہ وہ زمانہ ہے جو ماضی میں ہونے والے کاموں کے لیے استعمال ہوتا ہے۔",
+    "explanation": {
+      "english": "We usually add -ed to the verb for regular verbs, but irregular verbs change form. Example: played, went, saw, wrote.",
+      "urdu": "ہم باقاعدہ افعال میں اکثر -ed لگاتے ہیں، جبکہ غیر باقاعدہ افعال کا روپ بدل جاتا ہے۔ مثال: played، went، saw، wrote۔"
+    },
+    "examples": [
+      { "english": "I visited my uncle yesterday.", "urdu": "میں کل اپنے چچا کے گھر گیا۔" },
+      { "english": "She wrote a letter last night.", "urdu": "اس نے کل رات ایک خط لکھا۔" },
+      { "english": "We went to the market on Sunday.", "urdu": "ہم اتوار کو بازار گئے۔" },
+      { "english": "He cleaned the room.", "urdu": "اس نے کمرہ صاف کیا۔" }
+    ],
+    "remember": {
+      "english": "Use the past simple for finished actions in the past.",
+      "urdu": "ماضی سادہ مکمل ماضی کے کام کے لیے استعمال ہوتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the past simple tense?", "options": ["I go to school.", "I went to school.", "I am going to school.", "I will go to school."], "answer": "I went to school." },
+      { "question": "Choose the past form of 'play'.", "options": ["played", "play", "playing", "plays"], "answer": "played" },
+      { "question": "Which word shows an action in the past?", "options": ["ran", "run", "running", "runs"], "answer": "ran" }
+    ]
+  },
+  {
+    "slug": "past-continuous",
+    "title": "Past Continuous Tense",
+    "titleUrdu": "ماضی جاری زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The past continuous tense describes an action that was happening in the past.",
+    "descriptionUrdu": "ماضی جاری زمانہ وہ فعل ہے جو ماضی میں کسی وقت جاری تھا۔",
+    "explanation": {
+      "english": "We form it with was/were + verb + ing. Example: I was studying, They were waiting.",
+      "urdu": "ہم was/were + verb + ing سے بناتے ہیں۔ مثال: میں پڑھ رہا تھا، وہ انتظار کر رہے تھے۔"
+    },
+    "examples": [
+      { "english": "I was reading when the phone rang.", "urdu": "جب فون بجا، میں پڑھ رہا تھا۔" },
+      { "english": "They were playing in the park.", "urdu": "وہ پارک میں کھیل رہے تھے۔" },
+      { "english": "She was cooking while I was cleaning.", "urdu": "وہ کھانا بنا رہی تھی جبکہ میں صفائی کر رہا تھا۔" }
+    ],
+    "remember": {
+      "english": "Use the past continuous for actions that were in progress at a point in the past.",
+      "urdu": "ماضی جاری زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو ماضی میں کسی خاص وقت جاری تھے۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the past continuous tense?", "options": ["I study.", "I was studying.", "I studied.", "I will study."], "answer": "I was studying." },
+      { "question": "Choose the correct form: 'They ___ football.'", "options": ["played", "are playing", "were playing", "play"], "answer": "were playing" },
+      { "question": "Past continuous often includes a ____ action in the past.", "options": ["finished", "ongoing", "future", "instant"], "answer": "ongoing" }
+    ]
+  },
+  {
+    "slug": "past-perfect",
+    "title": "Past Perfect Tense",
+    "titleUrdu": "ماضی کامل زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The past perfect tense shows an action completed before another past action.",
+    "descriptionUrdu": "ماضی کامل زمانہ ظاہر کرتا ہے کہ کوئی عمل کسی دوسرے ماضی کے عمل سے پہلے مکمل ہوا۔",
+    "explanation": {
+      "english": "We form it with had + past participle. Example: I had finished before he arrived.",
+      "urdu": "ہم had + past participle سے بناتے ہیں۔ مثال: وہ پہنچنے سے پہلے میں اپنا کام مکمل کر چکا تھا۔"
+    },
+    "examples": [
+      { "english": "I had finished the work before 8 o'clock.", "urdu": "میں آٹھ بجے سے پہلے کام ختم کر چکا تھا۔" },
+      { "english": "She had left before the rain started.", "urdu": "بارش شروع ہونے سے پہلے وہ چلی گئی تھی۔" },
+      { "english": "They had eaten before the guests arrived.", "urdu": "مہمانوں کے آنے سے پہلے وہ کھا چکے تھے۔" }
+    ],
+    "remember": {
+      "english": "Use the past perfect for an earlier action in the past.",
+      "urdu": "ماضی کامل زمانہ ماضی کے کسی پہلے پورے ہوئے کام کے لیے استعمال ہوتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which sentence uses the past perfect tense?", "options": ["I had left before he arrived.", "I leave before he arrives.", "I left before he arrives.", "I am leaving before he arrives."], "answer": "I had left before he arrived." },
+      { "question": "Choose the correct form: 'She ___ already gone when we arrived.'", "options": ["had", "has", "is", "will"], "answer": "had" },
+      { "question": "Past perfect shows something happened before another ____ action.", "options": ["future", "present", "past", "daily"], "answer": "past" }
+    ]
+  },
+  {
+    "slug": "future-simple",
+    "title": "Future Simple Tense",
+    "titleUrdu": "مستقبل سادہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The future simple tense talks about actions that will happen later.",
+    "descriptionUrdu": "مستقبل سادہ وہ زمانہ ہے جو آنے والے کاموں کے لیے استعمال ہوتا ہے۔",
+    "explanation": {
+      "english": "We form it with will + base verb. Example: I will study, We will travel, She will help.",
+      "urdu": "ہم will + base verb سے مستقبل سادہ بناتے ہیں۔ مثال: میں پڑھوں گا، ہم سفر کریں گے، وہ مدد کرے گی۔"
+    },
+    "examples": [
+      { "english": "I will call you tomorrow.", "urdu": "میں کل تمہیں فون کروں گا۔" },
+      { "english": "She will visit her grandmother next week.", "urdu": "وہ اگلے ہفتے اپنی دادی کے گھر جائے گی۔" },
+      { "english": "We will start the project soon.", "urdu": "ہم جلد ہی پروجیکٹ شروع کریں گے۔" }
+    ],
+    "remember": {
+      "english": "Use the future simple for decisions or predictions about later actions.",
+      "urdu": "مستقبل سادہ ایسے فیصلوں یا پیشگوئی کے لیے استعمال ہوتا ہے جو بعد میں ہوں گے۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the future simple tense?", "options": ["I study daily.", "I studied yesterday.", "I will study tomorrow.", "I am studying now."], "answer": "I will study tomorrow." },
+      { "question": "Choose the correct form: 'They ___ arrive soon.'", "options": ["will", "were", "have", "are"], "answer": "will" },
+      { "question": "Future simple is used for actions in the ____.", "options": ["present", "past", "future", "now"], "answer": "future" }
+    ]
+  },
+  {
+    "slug": "future-continuous",
+    "title": "Future Continuous Tense",
+    "titleUrdu": "مستقبل جاری زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The future continuous tense describes an action that will be in progress in the future.",
+    "descriptionUrdu": "مستقبل جاری زمانہ وہ عمل ہے جو مستقبل میں کسی وقت جاری ہو گا۔",
+    "explanation": {
+      "english": "We form it with will be + verb + ing. Example: I will be working at 8 pm, They will be traveling.",
+      "urdu": "ہم will be + verb + ing سے بناتے ہیں۔ مثال: میں آٹھ بجے کام کر رہا ہوں گا، وہ سفر کر رہے ہوں گے۔"
+    },
+    "examples": [
+      { "english": "At 9 p.m., I will be studying.", "urdu": "رات نو بجے میں پڑھ رہا ہوں گا۔" },
+      { "english": "They will be waiting for us at the station.", "urdu": "وہ اسٹیشن پر ہمارے لیے انتظار کر رہے ہوں گے۔" },
+      { "english": "She will be teaching the class tomorrow morning.", "urdu": "وہ کل صبح کلاس پڑھا رہی ہوگی۔" }
+    ],
+    "remember": {
+      "english": "Use the future continuous for actions that will be ongoing at a future time.",
+      "urdu": "مستقبل جاری زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل میں کسی خاص وقت جاری ہوں گے۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the future continuous tense?", "options": ["I will be studying at 8 p.m.", "I study at 8 p.m.", "I studied at 8 p.m.", "I have studied at 8 p.m."], "answer": "I will be studying at 8 p.m." },
+      { "question": "Choose the correct form: 'He ___ working tomorrow.'", "options": ["will be", "was", "has", "is"], "answer": "will be" },
+      { "question": "Future continuous focuses on an action that is ____ in the future.", "options": ["finished", "in progress", "already done", "not planned"], "answer": "in progress" }
+    ]
+  },
+  {
+    "slug": "future-perfect",
+    "title": "Future Perfect Tense",
+    "titleUrdu": "مستقبل کامل زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The future perfect tense shows an action that will be completed before a future time.",
+    "descriptionUrdu": "مستقبل کامل زمانہ ایسے کام کو ظاہر کرتا ہے جو مستقبل کے کسی وقت سے پہلے مکمل ہو جائے گا۔",
+    "explanation": {
+      "english": "We form it with will have + past participle. Example: By next year, I will have finished the course.",
+      "urdu": "ہم will have + past participle سے بناتے ہیں۔ مثال: اگلے سال تک میں کورس ختم کر چکا ہوں گا۔"
+    },
+    "examples": [
+      { "english": "By next month, I will have completed the course.", "urdu": "اگلے مہینے تک میں کورس مکمل کر چکا ہوں گا۔" },
+      { "english": "They will have reached home by evening.", "urdu": "وہ شام تک گھر پہنچ چکے ہوں گے۔" },
+      { "english": "She will have finished her essay before class.", "urdu": "وہ کلاس سے پہلے اپنا Essay ختم کر چکی ہوگی۔" }
+    ],
+    "remember": {
+      "english": "Use the future perfect for an action completed before a certain future point.",
+      "urdu": "مستقبل کامل زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی خاص وقت سے پہلے مکمل ہو جائے گا۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the future perfect tense?", "options": ["I will finish my work.", "I will have finished my work by 6 p.m.", "I was finishing work.", "I finish work."], "answer": "I will have finished my work by 6 p.m." },
+      { "question": "Choose the correct form: 'By next year, she ___ completed the course.'", "options": ["will have", "has", "had", "will"], "answer": "will have" },
+      { "question": "Future perfect is used for actions completed before a certain ____ point.", "options": ["past", "present", "future", "daily"], "answer": "future" }
+    ]
+  },
+  {
+    "slug": "present-perfect-continuous",
+    "title": "Present Perfect Continuous Tense",
+    "titleUrdu": "موجودہ کامل جاری زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The present perfect continuous tense shows an action that started in the past and continues now.",
+    "descriptionUrdu": "موجودہ کامل جاری زمانہ وہ کام ظاہر کرتا ہے جو ماضی میں شروع ہوا اور ابھی تک جاری ہے۔",
+    "explanation": {
+      "english": "We form it with have/has been + verb + ing. Example: I have been studying for two hours.",
+      "urdu": "ہم have/has been + verb + ing سے بناتے ہیں۔ مثال: میں دو گھنٹے سے پڑھ رہا ہوں۔"
+    },
+    "examples": [
+      { "english": "I have been waiting for you since morning.", "urdu": "میں صبح سے آپ کا انتظار کر رہا ہوں۔" },
+      { "english": "She has been learning English for six months.", "urdu": "وہ چھ مہینوں سے انگریزی سیکھ رہی ہے۔" },
+      { "english": "They have been practicing for the match.", "urdu": "وہ میچ کے لیے مشق کر رہے ہیں۔" }
+    ],
+    "remember": {
+      "english": "Use the present perfect continuous for ongoing actions continuing from the past to now.",
+      "urdu": "موجودہ کامل جاری زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو ماضی سے اب تک جاری ہیں۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the present perfect continuous tense?", "options": ["I have been reading for two hours.", "I read for two hours.", "I will read for two hours.", "I was reading for two hours."], "answer": "I have been reading for two hours." },
+      { "question": "Choose the correct form: 'She ___ learning English since 2024.'", "options": ["has been", "is", "was", "will be"], "answer": "has been" },
+      { "question": "Present perfect continuous connects the past to the ____.", "options": ["future", "present", "past", "weekend"], "answer": "present" }
+    ]
+  },
+  {
+    "slug": "past-perfect-continuous",
+    "title": "Past Perfect Continuous Tense",
+    "titleUrdu": "ماضی کامل جاری زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The past perfect continuous tense shows an action that was ongoing before another past action.",
+    "descriptionUrdu": "ماضی کامل جاری زمانہ وہ کام ظاہر کرتا ہے جو کسی دوسرے ماضی کے کام سے پہلے جاری تھا۔",
+    "explanation": {
+      "english": "We form it with had been + verb + ing. Example: They had been waiting for an hour before the bus arrived.",
+      "urdu": "ہم had been + verb + ing سے بناتے ہیں۔ مثال: بس آنے سے پہلے وہ ایک گھنٹے سے انتظار کر رہے تھے۔"
+    },
+    "examples": [
+      { "english": "I had been studying before the lights went out.", "urdu": "روشنی بند ہونے سے پہلے میں پڑھتا جا رہا تھا۔" },
+      { "english": "She had been working all day before the meeting.", "urdu": "میٹنگ سے پہلے وہ پورا دن کام کر رہی تھی۔" },
+      { "english": "They had been cleaning the house before guests came.", "urdu": "مہمانوں کے آنے سے پہلے وہ گھر صاف کر رہے تھے۔" }
+    ],
+    "remember": {
+      "english": "Use the past perfect continuous for an action that had been continuing before another past event.",
+      "urdu": "ماضی کامل جاری زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو کسی دوسرے ماضی کے واقعہ سے پہلے جاری تھا۔"
+    },
+    "quiz": [
+      { "question": "Which sentence uses the past perfect continuous tense?", "options": ["She had been working before the meeting.", "She works before the meeting.", "She will work before the meeting.", "She was working before the meeting."], "answer": "She had been working before the meeting." },
+      { "question": "Choose the correct form: 'They ___ waiting when the bus arrived.'", "options": ["had been", "have been", "will be", "are"], "answer": "had been" },
+      { "question": "Past perfect continuous focuses on an action that was ____ before another past event.", "options": ["finished", "ongoing", "surprising", "difficult"], "answer": "ongoing" }
+    ]
+  },
+  {
+    "slug": "future-perfect-continuous",
+    "title": "Future Perfect Continuous Tense",
+    "titleUrdu": "مستقبل کامل جاری زمانہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The future perfect continuous tense shows an action that will be ongoing up to a future point.",
+    "descriptionUrdu": "مستقبل کامل جاری زمانہ وہ کام ظاہر کرتا ہے جو مستقبل کے کسی وقت تک جاری رہے گا۔",
+    "explanation": {
+      "english": "We form it with will have been + verb + ing. Example: By next year, I will have been teaching for ten years.",
+      "urdu": "ہم will have been + verb + ing سے بناتے ہیں۔ مثال: اگلے سال تک میں دس سال سے تدریس کر رہا ہوں گا۔"
+    },
+    "examples": [
+      { "english": "By 2027, I will have been working here for five years.", "urdu": "2027 تک میں یہاں پانچ سال سے کام کر رہا ہوں گا۔" },
+      { "english": "She will have been traveling for two days by Sunday.", "urdu": "اتوار تک وہ دو دن سے سفر کر رہی ہوگی۔" },
+      { "english": "They will have been waiting for one hour by the time we arrive.", "urdu": "ہم پہنچنے تک وہ ایک گھنٹے سے انتظار کر رہے ہوں گے۔" }
+    ],
+    "remember": {
+      "english": "Use the future perfect continuous to show an action continuing up to a future time.",
+      "urdu": "مستقبل کامل جاری زمانہ ایسے کام کے لیے استعمال ہوتا ہے جو مستقبل کے کسی وقت تک جاری رہے گا۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is in the future perfect continuous tense?", "options": ["I will have been working here for five years.", "I work here for five years.", "I am working here.", "I worked here."], "answer": "I will have been working here for five years." },
+      { "question": "Choose the correct form: 'By next month, she ___ teaching for ten years.'", "options": ["will have been", "has been", "was", "will be"], "answer": "will have been" },
+      { "question": "Future perfect continuous focuses on an action that continues until a ____ point.", "options": ["past", "future", "present", "random"], "answer": "future" }
+    ]
+  },
+  {
+    "slug": "sentence",
+    "title": "Sentence",
+    "titleUrdu": "جملہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "A sentence is a complete thought written with words.",
+    "descriptionUrdu": "جملہ وہ مکمل خیال ہے جو الفاظ کے ذریعے لکھا جاتا ہے۔",
+    "explanation": {
+      "english": "A sentence starts with a capital letter and ends with a punctuation mark. It can be a statement, question, command, or exclamation.",
+      "urdu": "جملہ بڑی حرف تہجی سے شروع ہوتا ہے اور رموزِ اوقاف پر ختم ہوتا ہے۔ یہ بیان، سوال، حکم یا تعجب ہو سکتا ہے۔"
+    },
+    "examples": [
+      { "english": "The sun rises in the morning.", "urdu": "سورج صبح کو طلوع ہوتا ہے۔" },
+      { "english": "Can you help me?", "urdu": "کیا آپ میری مدد کر سکتے ہیں؟" },
+      { "english": "Please close the door.", "urdu": "براہ کرم دروازہ بند کر دیں۔" },
+      { "english": "What a beautiful day!", "urdu": "کیا خوبصورت دن ہے!" }
+    ],
+    "remember": {
+      "english": "Every sentence should make sense and end correctly.",
+      "urdu": "ہر جملہ معنی رکھتا ہے اور مناسب علامت کے ساتھ ختم ہوتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which is a complete sentence?", "options": ["Because it was raining.", "The boy plays football.", "Very fast.", "At school."], "answer": "The boy plays football." },
+      { "question": "Which one ends with a question mark?", "options": ["I am tired.", "Where are you?", "Stand up.", "Wow!"], "answer": "Where are you?" },
+      { "question": "A sentence must have a ____.", "options": ["capital letter and meaning", "number only", "comma only", "nothing"], "answer": "capital letter and meaning" }
+    ]
+  },
+  {
+    "slug": "subject-and-predicate",
+    "title": "Subject and Predicate",
+    "titleUrdu": "فاعل اور خبر",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "The subject tells who or what the sentence is about, and the predicate tells what happens.",
+    "descriptionUrdu": "فاعل یہ بتاتا ہے کہ جملہ کس کے بارے میں ہے، اور خبر بتاتی ہے کہ کیا ہوا۔",
+    "explanation": {
+      "english": "In a sentence, the subject is the doer and the predicate is the action or description. Example: 'The dog barks.' Subject: The dog. Predicate: barks.",
+      "urdu": "جملے میں فاعلی فعل کرتا ہے اور خبر عمل یا وضاحت بیان کرتی ہے۔ مثال: 'کتا بھونکتا ہے۔' فاعلی: کتا۔ خبر: بھونکتا ہے۔"
+    },
+    "examples": [
+      { "english": "The teacher speaks loudly.", "urdu": "استاد زور سے بولتا ہے۔" },
+      { "english": "Birds fly in the sky.", "urdu": "پرندے آسمان میں اڑتے ہیں۔" },
+      { "english": "My brother reads a book.", "urdu": "میرے بھائی کتاب پڑھتا ہے۔" }
+    ],
+    "remember": {
+      "english": "The subject is who/what; the predicate is what they do.",
+      "urdu": "فاعل وہ ہے جو کس چیز یا شخص کے بارے میں ہے؛ خبر وہ ہے جو کیا ہوا یا کیا کروانا ہے۔"
+    },
+    "quiz": [
+      { "question": "In 'The child laughs,' the subject is ____.", "options": ["laughs", "child", "the", "The child laughs"], "answer": "child" },
+      { "question": "What is the predicate in 'The sun shines brightly'?", "options": ["The sun", "shines brightly", "brightly", "sun"], "answer": "shines brightly" },
+      { "question": "Which part tells who or what the sentence is about?", "options": ["predicate", "subject", "punctuation", "article"], "answer": "subject" }
+    ]
+  },
+  {
+    "slug": "gender",
+    "title": "Gender",
+    "titleUrdu": "جنس",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "Gender shows whether a noun is masculine, feminine, or neuter.",
+    "descriptionUrdu": "جنس ظاہر کرتا ہے کہ اسم مذکر، مؤنث یا خنثی ہے۔",
+    "explanation": {
+      "english": "Words can be masculine or feminine. Example: father (masculine), mother (feminine). Some nouns are common gender or neuter.",
+      "urdu": "الفاظ مذکر یا مؤنث ہو سکتے ہیں۔ مثال: باپ (مذکر)، ماں (مؤنث)۔ بعض اسموں میں مشترکہ جنس بھی ہوتا ہے۔"
+    },
+    "examples": [
+      { "english": "The boy is strong.", "urdu": "لڑکا مضبوط ہے۔" },
+      { "english": "The girl is kind.", "urdu": "لڑکی نرمی سے ہے۔" },
+      { "english": "The teacher is patient.", "urdu": "استاد صبر والا ہے۔" }
+    ],
+    "remember": {
+      "english": "Gender helps us match nouns with the right pronouns and forms.",
+      "urdu": "جنس ہمیں اسم کے مطابق ضمیر اور شکل کے ساتھ ملانے میں مدد دیتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which word is feminine?", "options": ["father", "mother", "brother", "uncle"], "answer": "mother" },
+      { "question": "Choose the masculine word.", "options": ["sister", "daughter", "boy", "mother"], "answer": "boy" },
+      { "question": "Which word is common gender?", "options": ["teacher", "girl", "boy", "queen"], "answer": "teacher" }
+    ]
+  },
+  {
+    "slug": "question-words",
+    "title": "Question Words",
+    "titleUrdu": "سوالیہ الفاظ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "Question words help us ask for information.",
+    "descriptionUrdu": "سوالیہ الفاظ معلومات حاصل کرنے کے لیے سوال پوچھنے میں مدد دیتے ہیں۔",
+    "explanation": {
+      "english": "Common question words are who, what, where, when, why, and how. They help us ask clear questions.",
+      "urdu": "عام سوالیہ الفاظ who، what، where، when، why، اور how ہیں۔ یہ سوالات واضح طور پر پوچھنے میں مدد دیتے ہیں۔"
+    },
+    "examples": [
+      { "english": "Who is your teacher?", "urdu": "آپ کا استاد کون ہے؟" },
+      { "english": "What is your name?", "urdu": "آپ کا نام کیا ہے؟" },
+      { "english": "Where do you live?", "urdu": "آپ کہاں رہتے ہیں؟" },
+      { "english": "When is the class?", "urdu": "کلاس کب ہے؟" }
+    ],
+    "remember": {
+      "english": "Use question words to ask for information clearly.",
+      "urdu": "معلومات کے لیے سوالیہ الفاظ استعمال کریں تاکہ واضح سوال پوچھا جا سکے۔"
+    },
+    "quiz": [
+      { "question": "Which word asks for a place?", "options": ["where", "what", "who", "when"], "answer": "where" },
+      { "question": "Which word asks about time?", "options": ["when", "why", "who", "which"], "answer": "when" },
+      { "question": "Which word asks for a person?", "options": ["who", "what", "where", "why"], "answer": "who" }
+    ]
+  },
+  {
+    "slug": "comparison",
+    "title": "Comparison",
+    "titleUrdu": "موازنہ",
+    "section": "Grammar",
+    "sectionUrdu": "گرامر",
+    "description": "Comparison tells us how things are similar or different.",
+    "descriptionUrdu": "موازنہ بتاتا ہے کہ چیزیں ایک دوسرے سے کیسے ملتی ہیں یا مختلف ہیں۔",
+    "explanation": {
+      "english": "We use comparatives like taller, faster, and better to compare two things. We use superlatives like tallest and fastest to compare more than two things.",
+      "urdu": "ہم دو چیزوں کے درمیان موازنہ کرنے کے لیے taller، faster، better جیسے الفاظ استعمال کرتے ہیں۔ دو سے زیادہ چیزوں کے لیے tallest، fastest جیسے superlative استعمال ہوتے ہیں۔"
+    },
+    "examples": [
+      { "english": "This bag is heavier than that bag.", "urdu": "یہ بیگ اس بیگ سے بھاری ہے۔" },
+      { "english": "Ali is taller than Hamza.", "urdu": "علی حمزہ سے لمبا ہے۔" },
+      { "english": "This is the tallest building in the city.", "urdu": "یہ شہر کا سب سے لمبا عمارت ہے۔" }
+    ],
+    "remember": {
+      "english": "Comparison helps us show differences and rankings clearly.",
+      "urdu": "موازنہ ہمیں اختلاف اور درجہ بندی صاف طور پر دکھانے میں مدد دیتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which is the comparative form of 'big'?", "options": ["bigger", "biggest", "bigly", "bigg"], "answer": "bigger" },
+      { "question": "Choose the correct sentence.", "options": ["This is the most beautiful flower.", "This is beautiful than that.", "This is more beautiful than that.", "This is beauty than that."], "answer": "This is more beautiful than that." },
+      { "question": "What does comparison show?", "options": ["time", "difference", "capital letters", "names"], "answer": "difference" }
+    ]
+  },
+  {
+    "slug": "full-stop-comma-question-mark-exclamation-mark",
+    "title": "Full Stop, Comma, Question Mark and Exclamation Mark",
+    "titleUrdu": "وقفہ، کاما، سوالیہ نشان اور تعجبی نشان",
+    "section": "Punctuation",
+    "sectionUrdu": "رموزِ اوقاف",
+    "description": "Punctuation helps us write clearly and correctly.",
+    "descriptionUrdu": "رموزِ اوقاف ہمیں صاف اور درست لکھنے میں مدد دیتے ہیں۔",
+    "explanation": {
+      "english": "A full stop ends a sentence, a comma separates ideas, a question mark asks a question, and an exclamation mark shows strong feeling.",
+      "urdu": "وقفہ جملہ ختم کرتا ہے، کاما خیالات کو الگ کرتا ہے، سوالیہ نشان سوال پوچھتا ہے، اور تعجبی نشان مضبوط احساس ظاہر کرتا ہے۔"
+    },
+    "examples": [
+      { "english": "I am ready.", "urdu": "میں تیار ہوں۔" },
+      { "english": "I like apples, mangoes, and bananas.", "urdu": "مجھے سیب، آم اور کیلے پسند ہیں۔" },
+      { "english": "Where do you live?", "urdu": "آپ کہاں رہتے ہیں؟" },
+      { "english": "Wow! That is amazing!", "urdu": "واہ! یہ بہت حیرت انگیز ہے!" },
+      { "english": "Please sit here.", "urdu": "براہ کرم یہاں بیٹھیں۔" }
+    ],
+    "remember": {
+      "english": "Punctuation makes writing easy to understand.",
+      "urdu": "رموزِ اوقاف لکھائی کو سمجھنے میں آسان بناتے ہیں۔"
+    },
+    "quiz": [
+      { "question": "Which sign ends a sentence?", "options": ["comma", "full stop", "question mark", "apostrophe"], "answer": "full stop" },
+      { "question": "Which mark is used for a question?", "options": ["!", ".", "?", ","], "answer": "?" },
+      { "question": "A comma is usually used to ____.", "options": ["end a sentence", "separate ideas", "show a name", "replace a verb"], "answer": "separate ideas" }
+    ]
+  },
+  {
+    "slug": "capital-letters-and-apostrophe",
+    "title": "Capital Letters and Apostrophe",
+    "titleUrdu": "بڑی حروف تہجی اور اپوسٹروف",
+    "section": "Punctuation",
+    "sectionUrdu": "رموزِ اوقاف",
+    "description": "Capital letters start important words, and apostrophes show missing letters or possession.",
+    "descriptionUrdu": "بڑی حروف تہجی اہم الفاظ شروع کرتی ہیں، اور اپوسٹروف گم شدہ حروف یا ملکیت ظاہر کرتا ہے۔",
+    "explanation": {
+      "english": "We use capital letters at the beginning of names and sentences. We use apostrophes in words like don't and Ali's.",
+      "urdu": "ہم ناموں اور جملوں کے شروع میں بڑی حروف تہجی استعمال کرتے ہیں۔ ہم don't اور Ali's جیسے الفاظ میں اپوسٹروف استعمال کرتے ہیں۔"
+    },
+    "examples": [
+      { "english": "Pakistan is a beautiful country.", "urdu": "پاکستان ایک خوبصورت ملک ہے۔" },
+      { "english": "My brother's bag is blue.", "urdu": "میرے بھائی کا بیگ نیلا ہے۔" },
+      { "english": "I am happy today.", "urdu": "میں آج خوش ہوں۔" },
+      { "english": "Don't run in the corridor.", "urdu": "کوریدور میں نہ دوڑیں۔" },
+      { "english": "The teacher says, 'Read carefully.'", "urdu": "استاد کہتا ہے، 'احتیاط سے پڑھو۔'" }
+    ],
+    "remember": {
+      "english": "Start names and sentences with capital letters. Apostrophes help with short forms and ownership.",
+      "urdu": "ناموں اور جملوں کے شروع میں بڑی حروف تہجی استعمال کریں۔ اپوسٹروف مختصر صورت اور ملکیت میں مدد کرتا ہے۔"
+    },
+    "quiz": [
+      { "question": "Which sentence is correct?", "options": ["i am late.", "I am late.", "I Am late.", "i Am late."], "answer": "I am late." },
+      { "question": "What does an apostrophe show in 'Ali's book'?", "options": ["a question", "possession", "a full stop", "a verb"], "answer": "possession" },
+      { "question": "Choose the correct contraction.", "options": ["dont", "do'nt", "don't", "do nott"], "answer": "don't" }
+    ]
+  }
+]

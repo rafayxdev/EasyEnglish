@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FFF8EC;
+  --surface: #FFFFFF;
+  --ink: #1B2430;
+  --muted: #5B6573;
+  --primary: #0E7C66;
+  --primary-hover: #0A6552;
+  --highlight: #FFC93C;
+  --success: #1E9E5A;
+  --danger: #D64545;
+  --section-parts: #FFF0C2;
+  --section-grammar: #D9F2EA;
+  --section-punctuation: #FFE1D6;
+  --border: #1B2430;
+  --font-lexend: 'Lexend', sans-serif;
+  --font-urdu: 'Noto Nastaliq Urdu', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  font-family: var(--font-lexend), sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main,
+section,
+article,
+header,
+footer,
+nav {
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select,
+a {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid rgba(14, 124, 102, 0.28);
+  outline-offset: 2px;
+}
+
+.urdu-text {
+  direction: rtl;
+  font-family: var(--font-urdu), serif;
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  line-height: 2.2;
+  text-align: right;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.notebook-card {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 var(--border);
+}
+
+.notebook-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 var(--border);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+
+.notebook-button:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 1px 1px 0 var(--border);
+}
+
+.notebook-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+  background: rgba(27, 36, 48, 0.25);
+  border-radius: 10px;
+}
