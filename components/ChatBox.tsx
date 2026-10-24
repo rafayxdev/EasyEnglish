@@ -23,6 +23,7 @@ export default function ChatBox({ compact = false, isFloating = false, initialOp
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(initialOpen);
+  const [showQuickActions, setShowQuickActions] = useState(false);
   const [canUseStorage, setCanUseStorage] = useState(true);
   const scrollRef = useRef<HTMLDivElement | null>(null);
 
@@ -77,6 +78,28 @@ export default function ChatBox({ compact = false, isFloating = false, initialOp
     safeLocalStorageSet(STORAGE_KEY, value);
   };
 
+  const getCurrentLessonName = () => {
+    if (typeof window === 'undefined') {
+      return '';
+    }
+
+    const path = window.location.pathname;
+    if (!path.startsWith('/lessons/')) {
+      return '';
+    }
+
+    const slug = path.replace('/lessons/', '').split('/')[0];
+    if (!slug) {
+      return '';
+    }
+
+    return slug
+      .split('-')
+      .filter(Boolean)
+      .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+      .join(' ');
+  };
+
   const sendMessage = async (customText?: string) => {
     const text = (customText ?? input).trim();
     if (!text || loading) return;
@@ -101,6 +124,7 @@ export default function ChatBox({ compact = false, isFloating = false, initialOp
         body: JSON.stringify({
           messages: recent,
           taskType: inferTaskType(text),
+          lessonName: getCurrentLessonName(),
         }),
       });
 
@@ -155,7 +179,7 @@ export default function ChatBox({ compact = false, isFloating = false, initialOp
 
   const panelClass = compact
     ? 'border-[2px] border-[var(--border)] bg-[var(--surface)] p-4 shadow-[3px_3px_0_#1B2430]'
-    : 'flex h-[75vh] min-h-[420px] flex-col border-[2px] border-[var(--border)] bg-[var(--surface)] shadow-[3px_3px_0_#1B2430]';
+    : 'flex h-[min(82vh,760px)] min-h-[520px] flex-col overflow-hidden border-[2px] border-[var(--border)] bg-[var(--surface)] shadow-[3px_3px_0_#1B2430]';
 
   if (isFloating && !isOpen) {
     return (
@@ -189,21 +213,38 @@ export default function ChatBox({ compact = false, isFloating = false, initialOp
         </div>
       ) : null}
 
-      <div className="flex flex-wrap gap-2 border-b-[2px] border-[var(--border)] p-3">
-        {quickActions.map((action) => (
-          <button
-            type="button"
-            key={action}
-            onClick={() => sendMessage(action)}
-            className="border-[2px] border-[var(--border)] bg-[var(--surface)] px-2.5 py-1.5 text-[11px] font-bold text-[var(--ink)] transition hover:bg-[var(--section-parts)] disabled:cursor-not-allowed disabled:opacity-60 sm:text-xs"
-            disabled={loading}
-          >
-            {action}
-          </button>
-        ))}
+      <div className="border-b-[2px] border-[var(--border)] px-3 py-2">
+        <button
+          type="button"
+          onClick={() => setShowQuickActions((current) => !current)}
+          className="inline-flex min-h-[36px] items-center gap-2 rounded-[8px] border-[2px] border-[var(--border)] bg-[var(--surface)] px-3 py-1.5 text-xs font-bold text-[var(--ink)] transition hover:bg-[var(--section-parts)]"
+          aria-expanded={showQuickActions}
+        >
+          <span aria-hidden="true">{showQuickActions ? '−' : '+'}</span>
+          Suggestions
+        </button>
+
+        {showQuickActions ? (
+          <div className="mt-2 flex flex-wrap gap-2">
+            {quickActions.map((action) => (
+              <button
+                type="button"
+                key={action}
+                onClick={() => {
+                  setShowQuickActions(false);
+                  sendMessage(action);
+                }}
+                className="border-[2px] border-[var(--border)] bg-[var(--surface)] px-2.5 py-1.5 text-[11px] font-bold text-[var(--ink)] transition hover:bg-[var(--section-parts)] disabled:cursor-not-allowed disabled:opacity-60 sm:text-xs"
+                disabled={loading}
+              >
+                {action}
+              </button>
+            ))}
+          </div>
+        ) : null}
       </div>
 
-      <div ref={scrollRef} className="chat-scroll flex-1 space-y-3 overflow-y-auto p-4">
+      <div ref={scrollRef} className="chat-scroll min-h-0 flex-1 space-y-3 overflow-y-auto p-4 sm:p-5">
         {messages.length === 0 ? (
           <div className="border-[2px] border-dashed border-[var(--border)] bg-[var(--section-parts)] p-4 text-sm text-[var(--muted)]">
             Ask a question in English or use a quick button.
@@ -212,7 +253,7 @@ export default function ChatBox({ compact = false, isFloating = false, initialOp
           messages.map((message) => (
             <div
               key={message.id}
-              className={`max-w-[85%] rounded-[10px] border-[2px] border-[var(--border)] px-3 py-2 text-sm leading-6 ${
+              className={`max-w-[92%] whitespace-pre-wrap rounded-[10px] border-[2px] border-[var(--border)] px-3 py-2.5 text-sm leading-6 ${
                 message.role === 'user'
                   ? 'ml-auto bg-[var(--primary)] text-white'
                   : 'bg-[var(--surface)] text-[var(--ink)]'

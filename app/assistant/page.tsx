@@ -3,7 +3,7 @@ import ChatBox from '@/components/ChatBox';
 
 export default function AssistantPage() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-6 sm:px-6 lg:px-8">
+    <main className="mx-auto max-w-5xl px-4 py-6 sm:px-6 lg:px-8">
       <div className="mb-4 border-[2px] border-[var(--border)] bg-[var(--surface)] p-4 shadow-[3px_3px_0_#1B2430]">
         <div className="flex items-center justify-between gap-3">
           <div>

@@ -1,7 +1,11 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import { useState } from 'react';
-import ChatBox from '@/components/ChatBox';
+
+const ChatBox = dynamic(() => import('@/components/ChatBox'), {
+  ssr: false,
+});
 
 export default function ChatButton() {
   const [open, setOpen] = useState(false);
@@ -19,7 +23,7 @@ export default function ChatButton() {
       ) : null}
 
       {open ? (
-        <div className="fixed bottom-4 right-3 z-50 w-[calc(100vw-1.5rem)] max-w-md sm:right-4 sm:w-[92vw]">
+        <div className="fixed bottom-3 right-2 z-50 w-[calc(100vw-1rem)] max-w-2xl sm:bottom-4 sm:right-4 sm:w-[min(92vw,640px)]">
           <ChatBox isFloating initialOpen />
         </div>
       ) : null}
